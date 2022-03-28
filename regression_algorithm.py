@@ -144,3 +144,4 @@ ax.pie(sizes, labels=labels_selected, autopct=lambda x: '{:2.0f}%'.format(x) if 
        startangle=0)
 ax.axis('equal')
 plt.tight_layout()
+plt.show()
